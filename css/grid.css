@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: auto;
+    background-color: #efeeee;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 200px 1fr 1fr 70px;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-template-areas:
+    "nav nav nav nav nav nav nav nav nav nav nav nav" 
+    "header header header header header header header header header header header header" 
+    "left-gutter main main main main main main main main main main right-gutter"
+    "left-gutter side side side side side side side side side side right-gutter"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    grid-area: header;
+}
+
+.main-content {
+    grid-area: main;
+}
+
+.side-content {
+    grid-area: side;
+}
+
+.left-gutter {
+    grid-area: left-gutter;
+}
+
+.right-gutter {
+    grid-area: right-gutter;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media only screen and (min-width: 900px){
+    .wrapper{
+        grid-template-rows: 50px 200px 1fr 70px;
+        grid-template-columns: repeat(12, 1fr); 
+        grid-template-areas:
+        "nav nav nav nav nav nav nav nav nav nav nav nav" 
+        "header header header header header header header header header header header header" 
+        "left-gutter main main main main main main main side side side right-gutter"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }    
+}
+
+@media only screen and (min-width: 1900px){
+    .wrapper{
+        grid-template-rows: 50px 200px 1fr 70px;
+        grid-template-columns: 1fr repeat(10,160px) 1fr; 
+        grid-template-areas:
+        "nav nav nav nav nav nav nav nav nav nav nav nav" 
+        "header header header header header header header header header header header header" 
+        "left-gutter main main main main main main main main side side right-gutter"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }    
+}

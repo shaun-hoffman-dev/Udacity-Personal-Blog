@@ -1,0 +1,26 @@
+.footer{
+    background: linear-gradient(to bottom right, #1A5276, #3498DB);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-images{
+    width: 200px;
+    text-align: right;
+}
+.social-images img{
+    max-height: 40px;
+    max-width: 40px;
+    margin: 0 10px;
+}
+
+.footer-text{
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}

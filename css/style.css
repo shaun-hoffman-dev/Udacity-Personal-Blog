@@ -1,0 +1,78 @@
+@import url("grid.css");
+@import url("header-styles.css");
+@import url("footer-styles.css");
+
+.main-content{
+    background-color: #FFF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.side-content{
+    background-color: #FFF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.subscribe-box {
+    width: 80%;
+    background-color: #85C1E9;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.subscribe-box h3 {
+    font-size: 1.7em;
+    color: #154360;
+    padding: 5px;
+}
+
+.subscribe-input{
+    font-size: 1.2em;
+    margin: 5px;
+    min-height: 30px;
+}
+
+.subscribe-button{
+    color: #FFF;
+    background-color: #154360;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.archive-box{
+    list-style: none;
+}
+
+.archive-box ul{
+    list-style: none;
+}
+
+@media only screen and (min-width: 900px){
+    .main-content{
+        box-shadow: none;
+    }
+
+    .subscribe-box {
+        width: 90%;
+        margin: 15px auto;
+        padding: 5px;
+    }
+    
+    .subscribe-box h3 {
+        font-size: 1.2em;
+    }
+    
+    .subscribe-input{
+        font-size: .9em;
+        padding: 2px;
+        margin: 2px;
+        min-height: 0;
+    }
+    
+    .subscribe-button{
+        padding: 2px;
+        font-size: .9em;
+    }
+}
