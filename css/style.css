@@ -20,13 +20,14 @@
 }
 
 .subscribe-box h3 {
-    font-size: 1.7em;
+    font-size: 1.4em;
     color: #154360;
     padding: 5px;
 }
 
 .subscribe-input{
-    font-size: 1.2em;
+    font-size: 1em;
+    width: 90%;
     margin: 5px;
     min-height: 30px;
 }
@@ -37,12 +38,14 @@
     font-weight: bold;
     padding: 8px;
     border-radius: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 5px;
 }
 
 .archive-box{
-    list-style: none;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
 }
 
 .archive-box ul{
@@ -50,7 +53,7 @@
 }
 
 .card{
-    background-color: #ddd;
+    background-color: #eee;
     padding: 5px;
     margin: 10px auto;
     border: 1px solid #aaa;
@@ -61,6 +64,17 @@
 .card-image{
     width: 255px;
     height: 280px;
+    margin: 5px auto;
+}
+
+.card-text{
+    font-size: 1.1em;
+    margin: 5px 1px;
+}
+
+.card-title{
+    font-size: 1.1em;
+
 }
 
 
