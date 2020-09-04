@@ -49,6 +49,33 @@
     list-style: none;
 }
 
+.card{
+    background-color: #ddd;
+    padding: 5px;
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.card-image{
+    width: 255px;
+    height: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 900px){
     .main-content{
         box-shadow: none;
