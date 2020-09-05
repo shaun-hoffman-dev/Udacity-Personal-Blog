@@ -1,3 +1,4 @@
+/* HANDLE ENTIRE HEADER COMPONENT */
 .header{
     background-color: #1A5276;
     background-image: url("../IMG/haybale-small.png");
@@ -13,6 +14,7 @@
     flex-direction: column;
 }
 
+/* HANDLE ENTIRE NAV COMPONENT */
 .nav{
     background-color: #333;
 }
@@ -30,6 +32,7 @@
     align-items: center;
 }
 
+/* NAV PIECES */
 .nav li {
     padding: 15px;
     width: 20vh;
@@ -50,12 +53,15 @@
     background-color: #555;
 }
 
+/* MEDIA QUERIES */
+/* CHANGE TO BETTER IMAGE AT 500px WIDTH */
 @media only screen and (min-width: 500px){
     .header{
         background-image: url("../IMG/haybale-medium.png");
     }
 }   
 
+/* CHANGE TO BETTER IMAGE AT 1100px WIDTH */
 @media only screen and (min-width: 1100px){
     .header{
         background-image: url("../IMG/haybale-large.png");
