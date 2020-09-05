@@ -1,8 +1,10 @@
+/* UNIVERSAL SELECTOR */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* HANDLE WRAPPER AND GRID LAYOUT */
 .wrapper{
     margin: auto;
     background-color: #efeeee;
@@ -19,6 +21,7 @@
     "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
+/* HANDLE TYPES AND COMPONENT GRID LAYOUTS */
 h1,
 h2,
 h3,
@@ -55,6 +58,8 @@ footer {
     grid-area: footer;
 }
 
+/* MEDIA QUERIES */
+/* PC SCREEN VIEW */
 @media only screen and (min-width: 900px){
     .wrapper{
         grid-template-rows: 50px 200px 1fr 70px;
@@ -67,6 +72,7 @@ footer {
     }    
 }
 
+/* WIDER PC SCREEN VIEW */
 @media only screen and (min-width: 1900px){
     .wrapper{
         grid-template-rows: 50px 200px 1fr 70px;

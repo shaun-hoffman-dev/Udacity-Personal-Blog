@@ -1,3 +1,4 @@
+/* HANDLE ENTIRE FOOTER COMPONENT */
 .footer{
     background: linear-gradient(to bottom right, #1A5276, #3498DB);
     display: flex;
@@ -12,6 +13,7 @@
     padding-top: 4px;
 }
 
+/* HANDLE SOCIAL MEDIA IMAGES */
 .social-images{
     width: 210px;
     text-align: right;
@@ -22,6 +24,7 @@
     margin: 0 7px;
 }
 
+/* HANDLE FOOTER TEXT */
 .footer-text{
     width: 60%;
     font-size: 1.2em;
