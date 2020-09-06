@@ -55,6 +55,18 @@
     font-size: 1.1em;
 }
 
+.archive-box{
+    width: 80%;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.archive-box ul{
+    text-align: left;
+    list-style: none;
+    margin: 5px auto;
+}
+
 /* MEDIA QUERIES (DEFAULT MOBILE)*/
 
 /* TABLET */
