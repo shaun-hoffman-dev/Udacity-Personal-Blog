@@ -40,7 +40,7 @@
 
 .author-box{
     width: 80%;
-    margin: 20px 10px;
+    margin: 20px auto;
 }
 
 .author-title{
@@ -57,7 +57,7 @@
 
 .archive-box{
     width: 80%;
-    margin: 20px 10px;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -70,7 +70,12 @@
 /* MEDIA QUERIES (DEFAULT MOBILE)*/
 
 /* TABLET */
-
+@media only screen and (min-width: 700px){
+    .archive-item,
+    .author-text{
+        font-size: 1.3em;
+    }
+}
 
 /* PC MONITOR */
 @media only screen and (min-width: 900px){
@@ -96,5 +101,4 @@
         padding: 2px;
         font-size: .9em;
     }
-
 }
