@@ -19,9 +19,18 @@
 .column-heading,
 .date-line,
 .by-line,
-.post-image{
+.article-figure{
  width: 90%;
- margin: auto;
+ margin: 5px auto;
+}
+
+.post-image{
+    width: 100%;
+}
+
+.date-line,
+.by-line{
+    font-size: .9em;
 }
 
 .post-text{
@@ -44,7 +53,9 @@
 
 /* TABLET */
 @media only screen and (min-width: 700px){
-
+    .post-text{
+        font-size: 1.3em;
+    }
 }
 
 
@@ -53,11 +64,16 @@
     .main-content{
         box-shadow: none;
     }
-
-
 }
 
-/* WIDEST SCREENS: MOVE MAIN CONTENT TO TWO COLUMNS */
-@media only screen and (min-width: 1900px){
-
+/* HANDLE ARTICLE/POST IMAGE SIZING FOR LARGER SCREENS */
+@media only screen and (min-width: 1081px){
+    /* .article-figure{
+        float: right;
+        width: 450px;
+        margin: 40px;
+    }
+    .post-text{
+        margin: 40px;
+    } */
 }
